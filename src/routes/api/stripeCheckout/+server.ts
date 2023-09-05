@@ -1,7 +1,7 @@
 import type { RequestHandler } from "./$types";
 import Stripe from 'stripe';
 
-const SECRET_STRIPE_KEY = "sk_test_51LfAvvGEQ8u28rQ5IvVpV2iXwMEIRvDvMNLTyzfM6eXlxQZpLlyrXFjiRP0Nj64t7EDcXm3tnDxnEvShrmCwUDgW00TaZN1cO8";
+const SECRET_STRIPE_KEY ='sk_test_51Nn63DFGQ6QmzlYZwG0HsjcNIQZXc6szXDvCi1cYzPWI8YAxmULfUjK8eqzTSk4Y14Ar4xdOxLa4pwUPsSKpkFWU00QLLsw7yG';
 const stripe = new Stripe(SECRET_STRIPE_KEY, {
     apiVersion: "2022-11-15"
 });
